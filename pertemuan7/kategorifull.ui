@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ui version="4.0">
- <class>Form</class>
- <widget class="QWidget" name="Form">
+ <class>FormKategori</class>
+ <widget class="QWidget" name="FormKategori">
   <property name="geometry">
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>469</width>
-    <height>543</height>
+    <width>566</width>
+    <height>505</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -17,8 +17,8 @@
    <property name="geometry">
     <rect>
      <x>10</x>
-     <y>20</y>
-     <width>221</width>
+     <y>10</y>
+     <width>160</width>
      <height>80</height>
     </rect>
    </property>
@@ -42,47 +42,88 @@
   <widget class="QWidget" name="verticalLayoutWidget_2">
    <property name="geometry">
     <rect>
-     <x>240</x>
-     <y>20</y>
-     <width>221</width>
+     <x>190</x>
+     <y>10</y>
+     <width>281</width>
      <height>80</height>
     </rect>
    </property>
    <layout class="QVBoxLayout" name="verticalLayout_2">
     <item>
-     <widget class="QLineEdit" name="lineEdit_id"/>
+     <widget class="QLineEdit" name="lineEdit"/>
     </item>
     <item>
-     <widget class="QLineEdit" name="lineEdit_nama"/>
+     <widget class="QLineEdit" name="lineEdit_2"/>
     </item>
    </layout>
   </widget>
   <widget class="QWidget" name="horizontalLayoutWidget">
    <property name="geometry">
     <rect>
-     <x>20</x>
-     <y>160</y>
-     <width>431</width>
-     <height>31</height>
+     <x>10</x>
+     <y>110</y>
+     <width>461</width>
+     <height>61</height>
     </rect>
    </property>
-   <layout class="QHBoxLayout" name="horizontalLayout_2">
+   <layout class="QHBoxLayout" name="horizontalLayout">
     <item>
-     <widget class="QPushButton" name="btnInsert">
+     <widget class="QPushButton" name="pushButton">
+      <property name="font">
+       <font>
+        <pointsize>10</pointsize>
+       </font>
+      </property>
       <property name="text">
-       <string>INSERT DATA</string>
+       <string>INSERT</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="pushButton_2">
+      <property name="font">
+       <font>
+        <pointsize>10</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>UPDATE</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="pushButton_3">
+      <property name="font">
+       <font>
+        <pointsize>10</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>DELETE</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="pushButton_4">
+      <property name="font">
+       <font>
+        <pointsize>10</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>LOAD DATA</string>
       </property>
      </widget>
     </item>
    </layout>
   </widget>
-  <widget class="QLabel" name="labelResult">
+  <widget class="QLabel" name="label_3">
    <property name="geometry">
     <rect>
      <x>20</x>
-     <y>210</y>
-     <width>431</width>
-     <height>16</height>
+     <y>180</y>
+     <width>131</width>
+     <height>41</height>
     </rect>
    </property>
    <property name="font">
@@ -97,10 +138,10 @@
   <widget class="QWidget" name="verticalLayoutWidget_3">
    <property name="geometry">
     <rect>
-     <x>20</x>
-     <y>240</y>
-     <width>431</width>
-     <height>191</height>
+     <x>10</x>
+     <y>230</y>
+     <width>461</width>
+     <height>161</height>
     </rect>
    </property>
    <layout class="QVBoxLayout" name="verticalLayout_3">
@@ -113,27 +154,35 @@
       </column>
       <column>
        <property name="text">
-        <string>Name Kategori</string>
+        <string>Nama Kategori</string>
        </property>
       </column>
      </widget>
     </item>
    </layout>
   </widget>
-  <widget class="QWidget" name="verticalLayoutWidget_4">
+  <widget class="QWidget" name="horizontalLayoutWidget_2">
    <property name="geometry">
     <rect>
-     <x>20</x>
-     <y>450</y>
-     <width>431</width>
-     <height>41</height>
+     <x>10</x>
+     <y>430</y>
+     <width>461</width>
+     <height>51</height>
     </rect>
    </property>
-   <layout class="QVBoxLayout" name="verticalLayout_4">
+   <layout class="QHBoxLayout" name="horizontalLayout_2">
     <item>
-     <widget class="QPushButton" name="btnLoad">
+     <widget class="QLineEdit" name="lineEdit_3"/>
+    </item>
+    <item>
+     <widget class="QPushButton" name="pushButton_5">
+      <property name="font">
+       <font>
+        <pointsize>10</pointsize>
+       </font>
+      </property>
       <property name="text">
-       <string>LOAD DATA</string>
+       <string>SEARCHING</string>
       </property>
      </widget>
     </item>
